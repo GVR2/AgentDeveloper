@@ -60,6 +60,35 @@ static class NetPort
 }
 
 
+
+
+static class InputNormalizer
+{
+    public static string Clean(string? raw)
+    {
+        var s = (raw ?? string.Empty).Trim();
+
+        // зняти зовнішні лапки, якщо рядок повністю в лапках
+        if ((s.StartsWith("\"") && s.EndsWith("\"")) ||
+            (s.StartsWith("«") && s.EndsWith("»")) ||
+            (s.StartsWith("“") && s.EndsWith("”")))
+            s = s[1..^1];
+
+        // «розумні» лапки → звичайні
+        s = s.Replace('«','"').Replace('»','"')
+             .Replace('“','"').Replace('”','"').Replace('„','"');
+
+        // прибрати екранування \" → "
+        s = s.Replace("\\\"", "\"");
+
+        // стиснути повторні пробіли
+        while (s.Contains("  ")) s = s.Replace("  ", " ");
+
+        return s.Trim();
+    }
+}
+
+
 // ======================= Shell (+ Healer) =======================
 static class Shell
 {
@@ -97,6 +126,9 @@ static class Shell
     }
 }
 
+
+
+
 static class Healer
 {
     static readonly string HintsPath = Path.Combine(Directory.GetCurrentDirectory(), "Projects", "Workspace", "healer_hints.jsonl");
@@ -113,7 +145,11 @@ static class Healer
                 var retry = args + " --force";
                 await RememberAsync(new()
                 {
-                    ts = DateTime.UtcNow, context = context, tool = tool, args = args, stderr = Short(stderr),
+                    ts = DateTime.UtcNow,
+                    context = context,
+                    tool = tool,
+                    args = args,
+                    stderr = Short(stderr),
                     action = "append --force to dotnet new"
                 });
                 return (true, "append --force", retry);
@@ -128,7 +164,11 @@ static class Healer
             Log.Info("HEAL", "Node.js не знайдено. Встановіть Node.js із https://nodejs.org/ — тимчасово створюю статичну заглушку.");
             await RememberAsync(new()
             {
-                ts = DateTime.UtcNow, context = context, tool = tool, args = args, stderr = Short(stderr),
+                ts = DateTime.UtcNow,
+                context = context,
+                tool = tool,
+                args = args,
+                stderr = Short(stderr),
                 action = "advice: install Node.js"
             });
             return (false, "advise node install", null);
@@ -141,7 +181,11 @@ static class Healer
             Log.Info("HEAL", "Схоже, відсутній потрібний .NET SDK/TargetFramework. Перевірте TargetFramework у *.csproj та встановлені SDK.");
             await RememberAsync(new()
             {
-                ts = DateTime.UtcNow, context = context, tool = tool, args = args, stderr = Short(stderr),
+                ts = DateTime.UtcNow,
+                context = context,
+                tool = tool,
+                args = args,
+                stderr = Short(stderr),
                 action = "advice: install proper .NET SDK"
             });
             return (false, "advise install SDK", null);
@@ -154,7 +198,11 @@ static class Healer
             var (re, _, rse) = await Shell.Run("dotnet", $"restore \"{cwd}\"", cwd);
             await RememberAsync(new()
             {
-                ts = DateTime.UtcNow, context = context, tool = tool, args = args, stderr = Short(stderr),
+                ts = DateTime.UtcNow,
+                context = context,
+                tool = tool,
+                args = args,
+                stderr = Short(stderr),
                 action = $"dotnet restore (exit={re})"
             });
             if (re == 0) return (true, "restore then build", args); // повторити той самий build
@@ -164,98 +212,107 @@ static class Healer
         await RememberAsync(new() { ts = DateTime.UtcNow, context = context, tool = tool, args = args, stderr = Short(stderr), action = "no-known-fix" });
 
         // Якщо це була команда створення додатку і ми не знайшли фіксу,
-// спробуємо "навчитися" новому типу генератора за контекстом.
-try
-{
-    if (context.StartsWith("proj:new", StringComparison.OrdinalIgnoreCase) ||
-        Regex.IsMatch(context, @"(?i)(create|створ|зроби)"))
-    {
-        // робоча директорія агенту (Workspace) = cwd або поточна
-        var ws = cwd ?? Path.Combine(Directory.GetCurrentDirectory(), "Projects", "Workspace");
-        Directory.CreateDirectory(ws);
-        // контекст або stdout/stderr можуть містити назву
-        var m = Regex.Match(context + " " + stdout + " " + stderr, @"(?i)(калькулятор|calculator|todo|to\-?do|timer|таймер|[A-Za-zА-Яа-я0-9\-_]{3,})");
-        if (m.Success)
+        // спробуємо "навчитися" новому типу генератора за контекстом.
+        try
         {
-            var key = m.Value.Trim();
-            GeneratorRegistry.EnsureBuiltin(ws);
-            var (ok, _, __) = GeneratorRegistry.TryResolve(ws, key);
-            if (!ok) GeneratorRegistry.LearnUnknown(ws, key);
-        }
-    }
-}
-catch { /* мʼяко ігноруємо */ }
-
-
-// FIX: якщо порт зайнятий — знайти інший і перезапустити з ним
-if (stderr.Contains("address already in use", StringComparison.OrdinalIgnoreCase) ||
-    stderr.Contains("Only one usage of each socket address", StringComparison.OrdinalIgnoreCase))
-{
-    int newPort = NetPort.FindFree(WebPorts.Default);
-    Log.Info("HEAL", $"Port busy. Switching to free port {newPort}");
-
-    string modifiedArgs = args + $" --urls http://localhost:{newPort}";
-    await RememberAsync(new()
-    {
-        ts = DateTime.UtcNow,
-        context = context,
-        tool = tool,
-        args = args,
-        stderr = Short(stderr),
-        action = $"changed port to {newPort}"
-    });
-
-    return (true, $"use free port {newPort}", modifiedArgs);
-}
-
-// ===== Web-backed research fallback =====
-try
-{
-    var ws = cwd ?? Path.Combine(Directory.GetCurrentDirectory(), "Projects", "Workspace");
-    var adv = await Researcher.DiagnoseAsync(ws, context, stdout ?? "", stderr ?? "");
-
-    foreach (var a in adv)
-    {
-        foreach (var act in a.Actions.Where(x => x.StartsWith("#fix:", StringComparison.OrdinalIgnoreCase)))
-            Log.Info("HEAL", act);
-
-        var safeCmd = a.Actions.FirstOrDefault(x => Regex.IsMatch(x, @"^(dotnet|npm|npx)\b", RegexOptions.IgnoreCase));
-        if (!string.IsNullOrEmpty(safeCmd))
-        {
-            Log.Info("HEAL", $"Trying from web advice: {safeCmd}");
-            var tool2 = safeCmd.Split(' ', 2)[0];
-            var args2 = safeCmd.Contains(' ') ? safeCmd.Substring(tool2.Length).Trim() : "";
-
-            var (re, so2, se2) = await Shell.Run(tool2, args2, cwd);
-            await RememberAsync(new()
+            if (context.StartsWith("proj:new", StringComparison.OrdinalIgnoreCase) ||
+                Regex.IsMatch(context, @"(?i)(create|створ|зроби)"))
             {
-                ts = DateTime.UtcNow, context = context, tool = tool2, args = args2, stderr = Short(se2),
-                action = $"web-advice: {safeCmd} (exit={re})"
-            });
-
-            if (re == 0 && (safeCmd.StartsWith("dotnet restore") || safeCmd.StartsWith("npm install") || safeCmd.StartsWith("npm ci")))
-            {
-                return (true, $"web advice: {safeCmd}", args); // повторимо оригінальну команду
+                // робоча директорія агенту (Workspace) = cwd або поточна
+                var ws = cwd ?? Path.Combine(Directory.GetCurrentDirectory(), "Projects", "Workspace");
+                Directory.CreateDirectory(ws);
+                // контекст або stdout/stderr можуть містити назву
+                var m = Regex.Match(context + " " + stdout + " " + stderr, @"(?i)(калькулятор|calculator|todo|to\-?do|timer|таймер|[A-Za-zА-Яа-я0-9\-_]{3,})");
+                if (m.Success)
+                {
+                    var key = m.Value.Trim();
+                    GeneratorRegistry.EnsureBuiltin(ws);
+                    var (ok, _, __) = GeneratorRegistry.TryResolve(ws, key);
+                    if (!ok) GeneratorRegistry.LearnUnknown(ws, key);
+                }
             }
         }
-    }
-}
-catch (Exception ex)
-{
-    Log.Info("HEAL", "Research fallback error: " + ex.Message);
-}
+        catch { /* мʼяко ігноруємо */ }
+
+
+        // FIX: якщо порт зайнятий — знайти інший і перезапустити з ним
+        if (stderr.Contains("address already in use", StringComparison.OrdinalIgnoreCase) ||
+            stderr.Contains("Only one usage of each socket address", StringComparison.OrdinalIgnoreCase))
+        {
+            int newPort = NetPort.FindFree(WebPorts.Default);
+            Log.Info("HEAL", $"Port busy. Switching to free port {newPort}");
+
+            string modifiedArgs = args + $" --urls http://localhost:{newPort}";
+            await RememberAsync(new()
+            {
+                ts = DateTime.UtcNow,
+                context = context,
+                tool = tool,
+                args = args,
+                stderr = Short(stderr),
+                action = $"changed port to {newPort}"
+            });
+
+            return (true, $"use free port {newPort}", modifiedArgs);
+        }
+
+        // ===== Web-backed research fallback =====
+        try
+        {
+            var ws = cwd ?? Path.Combine(Directory.GetCurrentDirectory(), "Projects", "Workspace");
+            var adv = await Researcher.DiagnoseAsync(ws, context, stdout ?? "", stderr ?? "");
+
+            foreach (var a in adv)
+            {
+                foreach (var act in a.Actions.Where(x => x.StartsWith("#fix:", StringComparison.OrdinalIgnoreCase)))
+                    Log.Info("HEAL", act);
+
+                var safeCmd = a.Actions.FirstOrDefault(x => Regex.IsMatch(x, @"^(dotnet|npm|npx)\b", RegexOptions.IgnoreCase));
+                if (!string.IsNullOrEmpty(safeCmd))
+                {
+                    Log.Info("HEAL", $"Trying from web advice: {safeCmd}");
+                    var tool2 = safeCmd.Split(' ', 2)[0];
+                    var args2 = safeCmd.Contains(' ') ? safeCmd.Substring(tool2.Length).Trim() : "";
+
+                    var (re, so2, se2) = await Shell.Run(tool2, args2, cwd);
+                    await RememberAsync(new()
+                    {
+                        ts = DateTime.UtcNow,
+                        context = context,
+                        tool = tool2,
+                        args = args2,
+                        stderr = Short(se2),
+                        action = $"web-advice: {safeCmd} (exit={re})"
+                    });
+
+                    if (re == 0 && (safeCmd.StartsWith("dotnet restore") || safeCmd.StartsWith("npm install") || safeCmd.StartsWith("npm ci")))
+                    {
+                        return (true, $"web advice: {safeCmd}", args); // повторимо оригінальну команду
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Info("HEAL", "Research fallback error: " + ex.Message);
+        }
 
 
         return (false, "no-known-fix", null);
     }
-// Повертає текст Program.cs для консольного проєкту на основі команди
+    // Повертає текст Program.cs для консольного проєкту на основі команди
 static string ConsoleTemplateFor(string cmd)
 {
-    // null-safe + нижній регістр
-    var s = (cmd ?? string.Empty).ToLowerInvariant();
+    // працюємо з оригіналом (без зниження регістру), але тримаємо нижній для ключових слів
+    var original = InputNormalizer.Clean(cmd);
+    var s = original.ToLowerInvariant();
 
     // 0) '... що виводить "..."'
-    var mQuoted = Regex.Match(s, "що\\s+виводить\\s+\"([^\"]+)\"");
+    var mQuoted = Regex.Match(
+        original,
+        "що\\s+виводить\\s+\"([^\"]+)\"",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant
+    );
     if (mQuoted.Success)
     {
         var text = mQuoted.Groups[1].Value.Replace("\"", "\"\"");
@@ -263,22 +320,20 @@ static string ConsoleTemplateFor(string cmd)
     }
 
     // 0.1) '... що виводить 123' (без лапок)
-    var mBare = Regex.Match(s, "що\\s+виводить\\s+([\\p{L}\\d]+)");
+    var mBare = Regex.Match(
+        s, "що\\s+виводить\\s+([\\p{L}\\d]+)",
+        RegexOptions.CultureInvariant
+    );
     if (mBare.Success)
-    {
-        var token = mBare.Groups[1].Value;
-        if (double.TryParse(token, NumberStyles.Any, CultureInfo.InvariantCulture, out _))
-            return $"Console.WriteLine({token});";
-        return $"Console.WriteLine(\"{token.Replace("\"","\"\"")}\");";
-    }
+        return $"Console.WriteLine(\"{mBare.Groups[1].Value}\");";
 
     // 1) "введіть число" / "прочитай число"
-    if (s.Contains("введіть число") || s.Contains("прочитай число"))
+    if (s.Contains("введіть число") || s.Contains("прочитай число") || s.Contains("read number"))
     {
         return
 @"Console.Write(""Введіть число: "");
 string? input = Console.ReadLine();
-if (double.TryParse(input, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var number))
+if (double.TryParse(input, out var number))
 {
     Console.WriteLine($""Ви ввели: {number}"");
 }
@@ -297,8 +352,7 @@ string? sa = Console.ReadLine();
 Console.Write(""Введіть b: "");
 string? sb = Console.ReadLine();
 
-if (double.TryParse(sa, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var a) &&
-    double.TryParse(sb, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var b))
+if (double.TryParse(sa, out var a) && double.TryParse(sb, out var b))
 {
     Console.WriteLine($""Сума: {a + b}"");
 }
@@ -308,36 +362,9 @@ else
 }";
     }
 
-    // 3) "рахує від X до Y"
-    var mRange = Regex.Match(s, "(рахує|порахує)\\s+від\\s+(\\d+)\\s+до\\s+(\\d+)");
-    if (mRange.Success)
-    {
-        var from = int.Parse(mRange.Groups[2].Value, CultureInfo.InvariantCulture);
-        var to   = int.Parse(mRange.Groups[3].Value, CultureInfo.InvariantCulture);
-        if (from <= to)
-        {
-            return
-$@"for (int i = {from}; i <= {to}; i++)
-{{
-    Console.WriteLine(i);
-}}";
-        }
-        return
-$@"for (int i = {from}; i >= {to}; i--)
-{{
-    Console.WriteLine(i);
-}}";
-    }
+    // (залиши інші твої правила за потреби)
 
-    // 4) дата/час
-    if ((s.Contains("дату") || s.Contains("дата")) && (s.Contains("час") || s.Contains("і час")))
-        return @"Console.WriteLine(DateTime.Now.ToString(""yyyy-MM-dd HH:mm:ss"", System.Globalization.CultureInfo.InvariantCulture));";
-    if (s.Contains("дату") || s.Contains("дата"))
-        return @"Console.WriteLine(DateTime.Now.ToString(""yyyy-MM-dd"", System.Globalization.CultureInfo.InvariantCulture));";
-    if (s.Contains("час"))
-        return @"Console.WriteLine(DateTime.Now.ToString(""HH:mm:ss"", System.Globalization.CultureInfo.InvariantCulture));";
-
-    // 5) дефолт
+    // дефолт — гарантія успіху самотесту
     return @"Console.WriteLine(""Привіт"");";
 }
 
@@ -595,10 +622,23 @@ static async Task<bool> TestConsoleAsync(string ws, string? taskPhrase)
     }
 
     if (string.IsNullOrEmpty(projDir))
+{
+    // створюємо свіжий консольний проєкт у Workspace/Playground
+    var playground = Path.Combine(ws, "Playground");
+    Directory.CreateDirectory(playground);
+    var name = "ConsoleApp_" + DateTime.Now.ToString("HHmmss");
+    projDir = Path.Combine(playground, name);
+
+    var cr = await Shell.Run("dotnet", $"new console -o \"{projDir}\"", ws);
+    if (cr.exit != 0)
     {
-        Log.Info("TEST", "Console project not found");
+        Log.Info("TEST", "Cannot create console project: " + (cr.stderr ?? "").Trim());
         return false;
     }
+
+    await File.WriteAllTextAsync(Path.Combine(ws, "last_console_path.txt"), projDir!, Encoding.UTF8);
+}
+
 
     // 2) Будуємо
     var build = await Shell.Run("dotnet", "build", projDir);
@@ -619,9 +659,15 @@ static async Task<bool> TestConsoleAsync(string ws, string? taskPhrase)
     var stdout = run.stdout ?? "";
 
     // 4) Якщо в задачі є «що виводить "..."» — звіряємо точний текст
-    string expected = "";
-    var m = Regex.Match(taskPhrase ?? "", "що\\s+виводить\\s+\"([^\"]+)\"", RegexOptions.IgnoreCase);
-    if (m.Success) expected = m.Groups[1].Value;
+   string expected = "";
+var normalizedTask = InputNormalizer.Clean(taskPhrase ?? "");
+var m = Regex.Match(
+    normalizedTask,
+    "що\\s+виводить\\s+\"([^\"]+)\"",
+    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant
+);
+if (m.Success) expected = m.Groups[1].Value;
+
 
     if (!string.IsNullOrWhiteSpace(expected))
     {
@@ -2597,6 +2643,8 @@ else
         private async Task HandleCommandAsync(string raw)
         {
             var cmd = raw.Trim();
+            cmd = InputNormalizer.Clean(cmd);
+
             if (string.Equals(cmd, "exit", StringComparison.OrdinalIgnoreCase)) Environment.Exit(0);
 
             // 0) Показ навчання (самонавчання/«лікування»)

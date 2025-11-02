@@ -10,3 +10,4 @@ C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\De
 C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.pdb
 C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.genruntimeconfig.cache
 C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\ref\AgentSingle.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.sourcelink.json
