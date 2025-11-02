@@ -1,0 +1,23 @@
+# Build folders
+bin/
+obj/
+
+# VSCode stuff
+.vscode/
+
+# Temporary
+temp/
+*.tmp
+
+# Agent workspace - НЕ пушимо
+Projects/
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.bak2
+
+# User settings
+*.user
