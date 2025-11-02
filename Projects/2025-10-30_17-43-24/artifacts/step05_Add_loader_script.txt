@@ -1,0 +1,5 @@
+Timestamp: 2025-10-30T20:43:26.6820444Z
+Intent: Add loader script
+Action: click
+Selector: text=Add Asset >> text=Script
+Notes: __loading__.js created

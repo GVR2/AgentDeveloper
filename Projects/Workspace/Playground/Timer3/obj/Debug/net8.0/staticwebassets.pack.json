@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer3\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer3\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer3\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Timer3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Timer3.props",
+      "PackagePath": "build\\Timer3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Timer3.props",
+      "PackagePath": "buildMultiTargeting\\Timer3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Timer3.props",
+      "PackagePath": "buildTransitive\\Timer3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

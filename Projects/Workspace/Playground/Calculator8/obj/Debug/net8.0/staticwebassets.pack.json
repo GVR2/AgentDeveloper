@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Calculator8\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Calculator8\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Calculator8\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Calculator8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Calculator8.props",
+      "PackagePath": "build\\Calculator8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Calculator8.props",
+      "PackagePath": "buildMultiTargeting\\Calculator8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Calculator8.props",
+      "PackagePath": "buildTransitive\\Calculator8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

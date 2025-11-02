@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "T4Vj1ypO++YN/dZnUf2oiS1+T8YlH+w0tAo1fXKHJhE=",
+  "Source": "Startlearning",
+  "BasePath": "_content/Startlearning",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Startlearning\\wwwroot",
+      "Source": "Startlearning",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\",
+      "BasePath": "_content/Startlearning",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\app.js",
+      "SourceId": "Startlearning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\",
+      "BasePath": "_content/Startlearning",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\index.html",
+      "SourceId": "Startlearning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\",
+      "BasePath": "_content/Startlearning",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\style.css",
+      "SourceId": "Startlearning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Startlearning\\wwwroot\\",
+      "BasePath": "_content/Startlearning",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

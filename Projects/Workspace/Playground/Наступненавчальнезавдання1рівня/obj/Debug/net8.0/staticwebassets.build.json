@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "63Pu/FJt8NzvYUBM5qm7/HiNHetvWsEPPO46ZGKCwa0=",
+  "Source": "Наступненавчальнезавдання1рівня",
+  "BasePath": "_content/Наступненавчальнезавдання1рівня",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Наступненавчальнезавдання1рівня\\wwwroot",
+      "Source": "Наступненавчальнезавдання1рівня",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\",
+      "BasePath": "_content/Наступненавчальнезавдання1рівня",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\app.js",
+      "SourceId": "Наступненавчальнезавдання1рівня",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\",
+      "BasePath": "_content/Наступненавчальнезавдання1рівня",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\index.html",
+      "SourceId": "Наступненавчальнезавдання1рівня",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\",
+      "BasePath": "_content/Наступненавчальнезавдання1рівня",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\style.css",
+      "SourceId": "Наступненавчальнезавдання1рівня",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Наступненавчальнезавдання1рівня\\wwwroot\\",
+      "BasePath": "_content/Наступненавчальнезавдання1рівня",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

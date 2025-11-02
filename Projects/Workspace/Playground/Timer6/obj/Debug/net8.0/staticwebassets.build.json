@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "r253naF+wsAgJtEbQugyM/hnXv/X7H15DYKHaC9f/Ws=",
+  "Source": "Timer6",
+  "BasePath": "_content/Timer6",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Timer6\\wwwroot",
+      "Source": "Timer6",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\",
+      "BasePath": "_content/Timer6",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\app.js",
+      "SourceId": "Timer6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\",
+      "BasePath": "_content/Timer6",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\index.html",
+      "SourceId": "Timer6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\",
+      "BasePath": "_content/Timer6",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\style.css",
+      "SourceId": "Timer6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Василь\\Desktop\\project\\codavant\\AgentDeveloper\\AgentSingle\\Projects\\Workspace\\Playground\\Timer6\\wwwroot\\",
+      "BasePath": "_content/Timer6",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

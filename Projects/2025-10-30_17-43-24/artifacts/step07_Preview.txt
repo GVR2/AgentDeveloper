@@ -1,0 +1,5 @@
+Timestamp: 2025-10-30T20:43:27.4242646Z
+Intent: Preview
+Action: click
+Selector: text=Launch
+Notes: App started

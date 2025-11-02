@@ -1,0 +1,12 @@
+﻿{
+  "keys": [
+    "\u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440",
+    "calculator"
+  ],
+  "title": "Calculator",
+  "files": {
+    "index.html": "\u003C!doctype html\u003E\r\n\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width,initial-scale=1\u0022\u003E\r\n\u003Ctitle\u003ECalculator\u003C/title\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022style.css\u0022\u003E\u003C/head\u003E\r\n\u003Cbody\u003E\r\n  \u003Cdiv class=\u0022card\u0022\u003E\r\n    \u003Ch1\u003ECalculator\u003C/h1\u003E\r\n    \u003Cinput id=\u0022a\u0022 type=\u0022number\u0022 placeholder=\u0022A\u0022\u003E\r\n    \u003Cselect id=\u0022op\u0022\u003E\u003Coption\u003E\u002B\u003C/option\u003E\u003Coption\u003E-\u003C/option\u003E\u003Coption\u003E*\u003C/option\u003E\u003Coption\u003E/\u003C/option\u003E\u003C/select\u003E\r\n    \u003Cinput id=\u0022b\u0022 type=\u0022number\u0022 placeholder=\u0022B\u0022\u003E\r\n    \u003Cbutton id=\u0022calc\u0022\u003E=\u003C/button\u003E\r\n    \u003Cdiv id=\u0022out\u0022\u003E\u003C/div\u003E\r\n  \u003C/div\u003E\u003Cscript src=\u0022app.js\u0022\u003E\u003C/script\u003E\u003C/body\u003E\u003C/html\u003E",
+    "style.css": "*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}\r\n.card{max-width:520px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}\r\nh1{margin:0 0 14px 0;font-size:20px}\r\ninput,select,button{padding:10px 12px;border-radius:10px;border:1px solid #d1d5db;margin-right:8px}\r\n#out{margin-top:12px;font-weight:600}",
+    "app.js": "const a=document.getElementById(\u0027a\u0027),b=document.getElementById(\u0027b\u0027),op=document.getElementById(\u0027op\u0027),out=document.getElementById(\u0027out\u0027);\r\ndocument.getElementById(\u0027calc\u0027).onclick=()=\u003E{const x=parseFloat(a.value),y=parseFloat(b.value);\r\nif(Number.isNaN(x)||Number.isNaN(y)){out.textContent=\u0027Enter numbers\u0027;return;}\r\nlet r=0;switch(op.value){case \u0027\u002B\u0027:r=x\u002By;break;case \u0027-\u0027:r=x-y;break;case \u0027*\u0027:r=x*y;break;case \u0027/\u0027:r=y===0?\u0027\u221E\u0027:x/y;break;}out.textContent=\u0027Result: \u0027\u002Br;};"
+  }
+}

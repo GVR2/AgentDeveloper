@@ -1,0 +1,28 @@
+﻿{
+  "items": {
+    "Pomodoro": {
+      "Theme": "auto",
+      "Font": "system",
+      "Radius": 10,
+      "SoftShadow": false,
+      "AccentHue": 42,
+      "Density": 1
+    },
+    "\u041A\u043E\u043D\u0441\u043E\u043B\u044C\u043D\u0438\u0439 \u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440": {
+      "Theme": "auto",
+      "Font": "mono",
+      "Radius": 10,
+      "SoftShadow": false,
+      "AccentHue": 314,
+      "Density": 1
+    },
+    "\u041F\u0440\u043E\u0441\u0442\u0438\u0439 \u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u0443 \u043A\u043E\u043D\u0441\u043E\u043B\u0456": {
+      "Theme": "auto",
+      "Font": "system",
+      "Radius": 10,
+      "SoftShadow": false,
+      "AccentHue": 300,
+      "Density": 1
+    }
+  }
+}

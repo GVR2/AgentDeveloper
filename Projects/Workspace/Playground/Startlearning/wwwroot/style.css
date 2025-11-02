@@ -1,0 +1,26 @@
+﻿*{box-sizing:border-box}
+:root{
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --text: #111111;
+  --ctrl-bg: #ffffff;
+  --accent: hsl(196 70% 55%);
+  --accent-hover: hsl(196 70% 48%);
+  --radius: 10px;
+  --shadow: 0 2px 10px rgba(0,0,0,.06);
+  --density: 1;
+  --font: ui-sans-serif, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica, Arial, sans-serif;
+}
+body{font-family:var(--font); background:var(--bg); color:var(--text); margin:0; padding:calc(28px*var(--density))}
+.card{max-width:800px; margin:0 auto; background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:calc(18px*var(--density)); box-shadow:var(--shadow)}
+input,select,button,textarea{padding:calc(10px*var(--density)) calc(12px*var(--density)); border-radius:var(--radius); border:1px solid var(--border); background:var(--ctrl-bg); color:var(--text)}
+button{background:var(--accent); color:#fff; border-color:transparent}
+button:hover{background:var(--accent-hover)}
+.row{display:flex; gap:12px; align-items:center; margin:10px 0}
+h1{margin:0 0 12px 0; font-size:22px}
+.hint{color:#7a7f87; font-size:13px}
+
+
+/* --- app css --- */
+*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}.card{max-width:680px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}

@@ -1,0 +1,927 @@
+[14:59:52] [AGENT] Workspace: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[14:59:53] [PANEL] Open http://localhost:8765/
+[15:00:07] [PANEL] + Створи рішення CalcSolution
+[15:00:18] [PANEL] + Створи консольний проєкт Calculator у рішенні CalcSolution
+[15:00:30] [PANEL] + Запусти проєкт Calculator
+[15:00:49] [PANEL] + Запусти проєкт Calculator
+[15:04:44] [AGENT] Workspace: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[15:04:44] [PANEL] Open http://localhost:8765/
+[15:05:12] [PANEL] + Створи рішення CalcSolution
+[15:05:17] [PANEL] + Створи рішення CalcSolution
+[15:06:28] [PANEL] + Створи .NET консольну програму HelloWorld.
+[15:08:54] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[15:08:54] [CMD] Received (file): Створи рішення CalcSolution
+[15:08:57] [SLN] Created C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\CalcSolution\CalcSolution.sln
+[15:08:57] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\CalcSolution\CalcSolution.sln
+[15:08:57] [CMD] Received (file): Створи консольний проєкт Calculator у рішенні CalcSolution
+[15:08:58] [SLN] Created C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\.sln
+[15:09:02] [DOTNET] new console і
+[15:09:03] [SLN] ERR Could not find solution or directory `C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\.sln`.
+
+[15:09:03] [OK] Проєкт і (console) додано у рішення 
+[15:09:03] [CMD] Received (file): Запусти проєкт Calculator
+[15:09:03] [RUN] Проєкт Calculator не знайдено
+[15:09:03] [CMD] Received (file): Запусти проєкт Calculator
+[15:09:03] [RUN] Проєкт Calculator не знайдено
+[15:09:03] [CMD] Received (file): Створи рішення CalcSolution
+[15:09:03] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\CalcSolution\CalcSolution.sln
+[15:09:03] [CMD] Received (file): Створи рішення CalcSolution
+[15:09:03] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\CalcSolution\CalcSolution.sln
+[15:09:04] [CMD] Received (file): Створи .NET консольну програму HelloWorld.
+[15:09:04] [DOTNET] create console
+[15:09:15] [OUT] HelloWorld from Agent!
+[15:19:07] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[15:19:53] [PANEL] + Створи консольний проєкт Calculator у рішенні CalcSolution
+[15:19:54] [CMD] Received (queue): Створи консольний проєкт Calculator у рішенні CalcSolution
+[15:19:59] [DOTNET] new console Calculator
+[15:20:02] [SLN] Added Calculator.csproj
+[15:20:02] [OK] Проєкт Calculator (console) додано у рішення CalcSolution
+[15:20:02] [CMD] Received (file): Створи консольний проєкт Calculator у рішенні CalcSolution
+[15:20:03] [DOTNET] ERR Creating this template will make changes to existing files:
+  Overwrite   Calculator\Calculator.csproj
+  Overwrite   Calculator\Program.cs
+
+To create the template anyway, run the command with '--force' option:
+   dotnet new console -n Calculator -o C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\CalcSolution\Calculator --force
+
+For details on the exit code, refer to https://aka.ms/templating-exit-codes#73
+
+[15:20:03] [DOTNET] Не вдалося створити проєкт
+[15:20:45] [PANEL] + Запусти проєкт Calculator
+[15:20:45] [CMD] Received (queue): Запусти проєкт Calculator
+[15:20:50] [OUT] Hello from Agent!
+[15:20:50] [CMD] Received (file): Запусти проєкт Calculator
+[15:20:54] [OUT] Hello from Agent!
+[15:49:26] [AGENT] Started (daemon mode). РљРѕРјР°РЅРґРё РІРёРєРѕРЅСѓСЋС‚СЊСЃСЏ РѕРґСЂР°Р·Сѓ.
+[15:53:24] [AGENT] Started (daemon mode). РљРѕРјР°РЅРґРё РІРёРєРѕРЅСѓСЋС‚СЊСЃСЏ РѕРґСЂР°Р·Сѓ.
+[15:54:11] [PANEL] + Створи калькулятор (queued)
+[15:54:12] [CMD] Received: Створи калькулятор
+[15:54:12] [CMD] No handler for: Створи калькулятор
+[15:56:00] [AGENT] Started (daemon mode). РљРѕРјР°РЅРґРё РІРёРєРѕРЅСѓСЋС‚СЊСЃСЏ РѕРґСЂР°Р·Сѓ.
+[15:57:35] [AGENT] Started (daemon mode). Р С™Р С•Р СР В°Р Р…Р Т‘Р С‘ Р Р†Р С‘Р С”Р С•Р Р…РЎС“РЎР‹РЎвЂљРЎРЉРЎРѓРЎРЏ Р С•Р Т‘РЎР‚Р В°Р В·РЎС“.
+[16:01:14] [AGENT] Started (daemon mode). Р С™Р С•Р СР В°Р Р…Р Т‘Р С‘ Р Р†Р С‘Р С”Р С•Р Р…РЎС“РЎР‹РЎвЂљРЎРЉРЎРѓРЎРЏ Р С•Р Т‘РЎР‚Р В°Р В·РЎС“.
+[16:02:43] [AGENT] Started (daemon mode). Р С™Р С•Р СР В°Р Р…Р Т‘Р С‘ Р Р†Р С‘Р С”Р С•Р Р…РЎС“РЎР‹РЎвЂљРЎРЉРЎРѓРЎРЏ Р С•Р Т‘РЎР‚Р В°Р В·РЎС“.
+[16:05:06] [AGENT] Started (daemon mode). Р С™Р С•Р СР В°Р Р…Р Т‘Р С‘ Р Р†Р С‘Р С”Р С•Р Р…РЎС“РЎР‹РЎвЂљРЎРЉРЎРѓРЎРЏ Р С•Р Т‘РЎР‚Р В°Р В·РЎС“.
+[16:15:28] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[16:37:26] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[16:37:49] [PANEL] + Створи калькулятор з крутим дизайном (queued)
+[16:37:49] [CMD] Received: Створи калькулятор з крутим дизайном
+[16:37:50] [LEARN] New generator scaffolded: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\калькуляторзкрутимдизайном.json
+[16:37:58] [DOTNET] new web Калькуляторзкрутимдизайном
+[16:38:00] [SLN] Created C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Playground.sln
+[16:38:03] [SLN] Added Калькуляторзкрутимдизайном.csproj
+[16:38:04] [OK] Браузерний застосунок 'Калькулятор з крутим дизайном' запущено на http://localhost:5173
+[17:00:02] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[17:00:24] [PANEL] + Створи таймер (queued)
+[17:00:24] [CMD] Received: Створи таймер
+[17:00:29] [DOTNET] new web Timer
+[17:00:32] [SLN] Added Timer.csproj
+[17:00:33] [OK] Браузерний застосунок 'Timer' запущено на http://localhost:5173
+[17:00:34] [LEARN] SelfTest: OK • Timer • http://localhost:5173/
+[17:01:01] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Timer\Program.cs:line 7
+
+[17:01:02] [WEB] dotnet run failed
+[17:01:19] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[17:01:47] [PANEL] + Створитаймер з темним фоном (queued)
+[17:01:47] [CMD] Received: Створитаймер з темним фоном
+[17:01:47] [CMD] No handler for: Створитаймер з темним фоном
+[17:01:51] [PANEL] + Створи таймер з темним фоном (queued)
+[17:01:51] [CMD] Received: Створи таймер з темним фоном
+[17:01:51] [LEARN] New generator scaffolded: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\таймерзтемнимфоном.json
+[17:01:51] [PANEL] + Створи таймер з темним фоном (queued)
+[17:01:56] [DOTNET] new web Таймерзтемнимфоном
+[17:01:59] [SLN] Added Таймерзтемнимфоном.csproj
+[17:02:00] [OK] Браузерний застосунок 'Таймер з темним фоном' запущено на http://localhost:5173
+[17:02:00] [LEARN] SelfTest: OK • Таймер з темним фоном • http://localhost:5173/
+[17:02:00] [CMD] Received: Створи таймер з темним фоном
+[17:02:00] [DOTNET] exists Таймерзтемнимфоном
+[17:02:02] [SLN] Added Таймерзтемнимфоном.csproj
+[17:02:03] [OK] Браузерний застосунок 'Таймер з темним фоном' запущено на http://localhost:5173
+[17:02:03] [LEARN] SelfTest: OK • Таймер з темним фоном • http://localhost:5173/
+[17:02:33] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Таймерзтемнимфоном\Program.cs:line 7
+
+[17:02:33] [WEB] dotnet run failed
+[17:02:36] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Таймерзтемнимфоном\Program.cs:line 7
+
+[17:02:36] [WEB] dotnet run failed
+[17:04:15] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[17:04:22] [PANEL] + Покажи навчання (queued)
+[17:04:22] [CMD] Received: Покажи навчання
+[17:04:22] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[17:04:22] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[17:04:22] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[17:13:22] [PANEL] + Запусти проєкт (queued)
+[17:13:22] [CMD] Received: Запусти проєкт
+[17:13:22] [CMD] No handler for: Запусти проєкт
+[17:13:44] [PANEL] + Створи рішення MySolution (queued)
+[17:13:45] [CMD] Received: Створи рішення MySolution
+[17:13:46] [SLN] Created C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\MySolution\MySolution.sln
+[17:13:46] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\MySolution\MySolution.sln
+[17:14:12] [PANEL] + Створи таймер (queued)
+[17:14:12] [CMD] Received: Створи таймер
+[17:14:12] [DOTNET] exists Timer
+[17:14:13] [SLN] Added Timer.csproj
+[17:14:14] [OK] Браузерний застосунок 'Timer' запущено на http://localhost:5173
+[17:14:14] [LEARN] SelfTest: OK • Timer • http://localhost:5173/
+[17:14:33] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Timer\Program.cs:line 7
+
+[17:14:33] [WEB] dotnet run failed
+[17:23:31] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[17:23:57] [PANEL] + Зроби калькулятор і запусти у браузері (queued)
+[17:23:58] [CMD] Received: Зроби калькулятор і запусти у браузері
+[17:24:04] [DOTNET] new web Calculator
+[17:24:08] [SLN] Added Calculator.csproj
+[17:24:08] [LEARN] SelfTest: OK • Calculator • http://localhost:5173/
+[17:24:09] [OK] Браузерний застосунок 'Calculator' запущено на http://localhost:5173 
+[17:24:40] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Calculator\Program.cs:line 7
+
+[17:24:40] [WEB] dotnet run failed
+[17:56:24] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[17:56:39] [PANEL] + Створи таймер (queued)
+[17:56:40] [CMD] Received: Створи таймер
+[17:56:46] [DOTNET] new web Timer2
+[17:56:49] [SLN] Added Timer2.csproj
+[17:56:49] [LEARN] SelfTest: FAIL • Timer • http://localhost:5173/
+[17:56:49] [LEARN] Notes: timer: UI controls missing (#clock, #start, #stop, #reset) | timer: UI controls missing (#clock, #start, #stop, #reset)
+[17:56:49] [HEAL] Applied fallback to builtin 'timer' and rewrote wwwroot.
+[17:56:49] [LEARN] SelfTest: FAIL • Timer • http://localhost:5173/
+[17:56:49] [LEARN] Notes: timer: UI controls missing (#clock, #start, #stop, #reset) | timer: UI controls missing (#clock, #start, #stop, #reset)
+[17:56:49] [HEAL] Fallback still failing.
+[17:57:12] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Timer2\Program.cs:line 7
+
+[17:57:12] [WEB] dotnet run failed
+[18:03:58] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[18:04:19] [PANEL] + Створи калькулятор та відкрий у Браузері (queued)
+[18:04:19] [CMD] Received: Створи калькулятор та відкрий у Браузері
+[18:04:24] [DOTNET] new web Calculator2
+[18:04:26] [SLN] Added Calculator2.csproj
+[18:04:36] [LEARN] SelfTest: OK • Calculator • http://localhost:5173/
+[18:05:14] [PANEL] + відкрий у Браузері (queued)
+[18:05:14] [CMD] Received: відкрий у Браузері
+[18:05:14] [CMD] No handler for: відкрий у Браузері
+[18:06:46] [PANEL] + Створи таймер (queued)
+[18:06:46] [CMD] Received: Створи таймер
+[18:06:51] [DOTNET] new web Timer3
+[18:06:53] [SLN] Added Timer3.csproj
+[18:06:53] [LEARN] SelfTest: FAIL • Timer • http://localhost:5173/
+[18:06:53] [LEARN] Notes: timer: UI controls missing (#clock, #start, #stop, #reset) | timer: UI controls missing (#clock, #start, #stop, #reset)
+[18:06:53] [HEAL] Applied fallback to builtin 'timer' and rewrote wwwroot.
+[18:06:53] [LEARN] SelfTest: FAIL • Timer • http://localhost:5173/
+[18:06:53] [LEARN] Notes: timer: UI controls missing (#clock, #start, #stop, #reset) | timer: UI controls missing (#clock, #start, #stop, #reset)
+[18:06:53] [HEAL] Fallback still failing.
+[18:07:08] [RUN] ERR: Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\Timer3\Program.cs:line 7
+
+[18:07:08] [WEB] dotnet run failed
+[18:07:57] [PANEL] + Покажи навчання (queued)
+[18:07:57] [CMD] Received: Покажи навчання
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:14:33.0282197Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:24:40.1578724Z","context":"proj:run:Calculator","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T20:57:12.7328982Z","context":"proj:run:Timer2","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:07:57] [LEARN] {"ts":"2025-11-01T21:07:08.1820082Z","context":"proj:run:Timer3","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[18:23:53] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[18:24:13] [PANEL] + Створи таймер (queued)
+[18:24:14] [CMD] Received: Створи таймер
+[18:24:21] [DOTNET] new web Timer4
+[18:24:25] [SLN] Added Timer4.csproj
+[18:24:43] [LEARN] SelfTest: OK • Timer • http://localhost:5174/
+[18:25:09] [PANEL] + Створи калькулятор з темним фоном (queued)
+[18:25:09] [CMD] Received: Створи калькулятор з темним фоном
+[18:25:15] [DOTNET] new web Calculator3
+[18:25:17] [SLN] Added Calculator3.csproj
+[18:25:29] [LEARN] SelfTest: OK • Calculator • http://localhost:5175/
+[18:26:03] [PANEL] + Зроби todo (queued)
+[18:26:03] [CMD] Received: Зроби todo
+[18:26:09] [DOTNET] new web Todo
+[18:26:12] [SLN] Added Todo.csproj
+[18:26:23] [LEARN] SelfTest: OK • Todo • http://localhost:5176/
+[18:26:45] [PANEL] + Зроби нотатки (queued)
+[18:26:46] [CMD] Received: Зроби нотатки
+[18:26:52] [DOTNET] new web Calculator4
+[18:26:56] [SLN] Added Calculator4.csproj
+[18:27:05] [LEARN] SelfTest: OK • Calculator • http://localhost:5177/
+[18:27:21] [PANEL] + Зроби гаманець (queued)
+[18:27:21] [CMD] Received: Зроби гаманець
+[18:27:27] [DOTNET] new web Calculator5
+[18:27:30] [SLN] Added Calculator5.csproj
+[18:27:43] [LEARN] SelfTest: OK • Calculator • http://localhost:5178/
+[18:28:46] [PANEL] + Зроби notes (queued)
+[18:28:46] [CMD] Received: Зроби notes
+[18:28:57] [DOTNET] new web Calculator6
+[18:29:03] [SLN] Added Calculator6.csproj
+[18:29:27] [LEARN] SelfTest: OK • Calculator • http://localhost:5179/
+[19:02:06] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:02:30] [PANEL] + Створи нотатку (queued)
+[19:02:30] [CMD] Received: Створи нотатку
+[19:02:39] [DOTNET] new web Calculator7
+[19:02:44] [SLN] Added Calculator7.csproj
+[19:03:41] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:03:57] [PANEL] + Створи таймер в темному фоні (queued)
+[19:03:57] [CMD] Received: Створи таймер в темному фоні
+[19:04:04] [DOTNET] new web Timer5
+[19:04:07] [SLN] Added Timer5.csproj
+[19:04:26] [LEARN] SelfTest: OK • Timer • http://localhost:5181/
+[19:06:19] [PANEL] + Створи годинник (queued)
+[19:06:19] [CMD] Received: Створи годинник
+[19:06:26] [DOTNET] new web Calculator8
+[19:06:29] [SLN] Added Calculator8.csproj
+[19:06:59] [LEARN] SelfTest: OK • Calculator • http://localhost:5182/
+[19:10:01] [PANEL] + Покажи навчання (queued)
+[19:10:01] [CMD] Received: Покажи навчання
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:14:33.0282197Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:24:40.1578724Z","context":"proj:run:Calculator","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T20:57:12.7328982Z","context":"proj:run:Timer2","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:01] [LEARN] {"ts":"2025-11-01T21:07:08.1820082Z","context":"proj:run:Timer3","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [PANEL] + Покажи навчання (queued)
+[19:10:03] [CMD] Received: Покажи навчання
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:14:33.0282197Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:24:40.1578724Z","context":"proj:run:Calculator","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T20:57:12.7328982Z","context":"proj:run:Timer2","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:10:03] [LEARN] {"ts":"2025-11-01T21:07:08.1820082Z","context":"proj:run:Timer3","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[19:20:36] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:20:55] [PANEL] + Створи годинник (queued)
+[19:20:56] [CMD] Received: Створи годинник
+[19:21:08] [DOTNET] new web Calculator9
+[19:21:12] [SLN] Added Calculator9.csproj
+[19:21:37] [LEARN] SelfTest: OK • Calculator • http://localhost:5183/
+[19:22:04] [PANEL] + Відкрий рішення MySolution у Visual Studio (queued)
+[19:22:05] [CMD] Received: Відкрий рішення MySolution у Visual Studio
+[19:41:02] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:41:19] [PANEL] + Зроби гаманець з темною темою (queued)
+[19:41:19] [CMD] Received: Зроби гаманець з темною темою
+[19:41:19] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\гаманецьзтемноютемою.json
+[19:41:29] [DOTNET] new web Wallet
+[19:41:32] [SLN] Added Wallet.csproj
+[19:41:58] [LEARN] SelfTest: OK • Wallet • http://localhost:5184/
+[19:43:08] [PANEL] + Створи блокнот для нотаток (queued)
+[19:43:08] [CMD] Received: Створи блокнот для нотаток
+[19:43:08] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\блокнотдлянотаток.json
+[19:43:15] [DOTNET] new web Notes
+[19:43:19] [SLN] Added Notes.csproj
+[19:43:42] [LEARN] SelfTest: OK • Notes • http://localhost:5185/
+[19:44:07] [PANEL] + зроби таймер помідора (queued)
+[19:44:07] [CMD] Received: зроби таймер помідора
+[19:44:07] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\таймерпомідора.json
+[19:44:18] [DOTNET] new web Timer6
+[19:44:24] [SLN] Added Timer6.csproj
+[19:44:39] [LEARN] SelfTest: FAIL • Timer • http://localhost:5186/
+[19:44:39] [LEARN] Notes: timer: UI controls missing (#clock, #start, #stop, #reset)
+[19:44:39] [STYLE] Heal auto-pick: Pomodoro
+[19:44:39] [HEAL] Applied fallback and rewrote wwwroot.
+[19:44:39] [LEARN] SelfTest: OK • Pomodoro • http://localhost:5186/
+[19:44:39] [HEAL] Fixed and learned mapping: 'таймер помідора' -> 'pomodoro'.
+[19:46:03] [PANEL] + трекер води на день (queued)
+[19:46:03] [CMD] Received: трекер води на день
+[19:46:03] [CMD] No handler for: трекер води на день
+[19:47:05] [PANEL] + трекер води на день (queued)
+[19:47:05] [CMD] Received: трекер води на день
+[19:47:05] [CMD] No handler for: трекер води на день
+[19:47:10] [PANEL] + трекер води на день (queued)
+[19:47:10] [CMD] Received: трекер води на день
+[19:47:10] [CMD] No handler for: трекер води на день
+[19:47:10] [PANEL] + трекер води на день (queued)
+[19:47:10] [PANEL] + трекер води на день (queued)
+[19:47:11] [CMD] Received: трекер води на день
+[19:47:11] [CMD] No handler for: трекер води на день
+[19:47:11] [CMD] Received: трекер води на день
+[19:47:11] [CMD] No handler for: трекер води на день
+[19:49:05] [PANEL] + Зроби трекер води на день (queued)
+[19:49:05] [CMD] Received: Зроби трекер води на день
+[19:49:05] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\трекерводинадень.json
+[19:49:18] [DOTNET] new web Трекерводинадень
+[19:49:24] [SLN] Added Трекерводинадень.csproj
+[19:49:51] [LEARN] SelfTest: OK • Трекер води на день • http://localhost:5187/
+[19:50:58] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:51:09] [PANEL] + трекер води на день (queued)
+[19:51:09] [CMD] Received: трекер води на день
+[19:51:55] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[19:52:05] [PANEL] + трекер води на день (queued)
+[19:52:05] [CMD] Received: трекер води на день
+[19:54:41] [PANEL] + зроби трекер води на день (queued)
+[19:54:41] [CMD] Received: зроби трекер води на день
+[19:54:51] [DOTNET] new web Трекерводинадень2
+[19:54:58] [SLN] Added Трекерводинадень2.csproj
+[19:55:14] [LEARN] SelfTest: OK • Трекер води на день • http://localhost:5188/
+[20:02:06] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:02:20] [PANEL] + Трекер калорій на день (queued)
+[20:02:21] [CMD] Received: Трекер калорій на день
+[20:02:30] [DOTNET] new web Трекерводинадень3
+[20:02:34] [SLN] Added Трекерводинадень3.csproj
+[20:02:35] [PANEL] + зроби Трекер калорій на день (queued)
+[20:02:58] [LEARN] SelfTest: OK • Трекер води на день • http://localhost:5189/
+[20:03:00] [CMD] Received: зроби Трекер калорій на день
+[20:03:12] [DOTNET] new web Трекерводинадень4
+[20:03:23] [SLN] Added Трекерводинадень4.csproj
+[20:03:39] [LEARN] SelfTest: OK • Трекер води на день • http://localhost:5190/
+[20:04:27] [PANEL] + зроби годинник задній фон темний (queued)
+[20:04:27] [CMD] Received: зроби годинник задній фон темний
+[20:04:27] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\годинникзаднійфонтемний.json
+[20:04:39] [DOTNET] new web Годинникзаднійфонтемний
+[20:04:48] [SLN] Added Годинникзаднійфонтемний.csproj
+[20:05:09] [LEARN] SelfTest: OK • Годинник задній фон темний • http://localhost:5191/
+[20:13:23] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:13:29] [PANEL] + навчайся: CS1513 (queued)
+[20:13:29] [CMD] Received: навчайся: CS1513
+[20:13:29] [RESEARCH] Search: manual:CS1513
+[20:13:31] [LEARN] Нічого корисного не знайшов
+[20:39:55] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:40:07] [PANEL] + навчайся: CS1513 (queued)
+[20:40:07] [CMD] Received: навчайся: CS1513
+[20:40:07] [RESEARCH] Search: CS1513 fix
+[20:40:10] [LEARN] Нічого корисного не знайшов
+[20:42:26] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:42:38] [PANEL] + навчайся: CS1513 (queued)
+[20:42:38] [CMD] Received: навчайся: CS1513
+[20:42:38] [RESEARCH] Search: CS1513 fix
+[20:42:40] [LEARN] Нічого корисного не знайшов
+[20:42:57] [PANEL] + навчайся: kestrel "Only one usage of each socket address" fix (queued)
+[20:42:57] [CMD] Received: навчайся: kestrel "Only one usage of each socket address" fix
+[20:42:57] [RESEARCH] Search: kestrel Only one usage of each socket address fix
+[20:42:59] [LEARN] Нічого корисного не знайшов
+[20:44:26] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:44:34] [CMD] Received: навчайся: CS1513
+[20:44:34] [PANEL] + навчайся: CS1513 (queued)
+[20:44:35] [RESEARCH] Search: CS1513 fix
+[20:44:50] [LEARN] Нічого корисного не знайшов
+[20:45:05] [PANEL] + навчайся: kestrel "Only one usage of each socket address" fix (queued)
+[20:45:05] [CMD] Received: навчайся: kestrel "Only one usage of each socket address" fix
+[20:45:05] [RESEARCH] Search: kestrel Only one usage of each socket address fix
+[20:45:07] [LEARN] Нічого корисного не знайшов
+[20:45:18] [PANEL] + діагностуй (queued)
+[20:45:18] [CMD] Received: діагностуй
+[20:45:18] [CMD] ERR: The process cannot access the file 'C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\logs.txt' because it is being used by another process.
+[20:51:55] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[20:52:07] [PANEL] + навчайся: CS1513 (queued)
+[20:52:08] [CMD] Received: навчайся: CS1513
+[20:52:08] [RESEARCH] Search: CS1513 fix
+[20:52:11] [RESEARCH] Saved (offline): C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\knowledge\20251101_235211_cs1513fix_offline.md
+[20:52:11] [LEARN] Збережено 1 запис(и) у knowledge/
+[20:53:21] [PANEL] + навчайся: kestrel port fix (queued)
+[20:53:22] [CMD] Received: навчайся: kestrel port fix
+[20:53:22] [RESEARCH] Search: kestrel port fix
+[20:53:24] [RESEARCH] Saved (offline): C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\knowledge\20251101_235324_kestrelportfix_offline.md
+[20:53:24] [LEARN] Збережено 1 запис(и) у knowledge/
+[20:53:46] [PANEL] + діагностуй (queued)
+[20:53:46] [CMD] Received: діагностуй
+[20:53:47] [RESEARCH] Search: CS1513 fix
+[20:53:50] [RESEARCH] Saved (offline): C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\knowledge\20251101_235350_cs1513fix_offline.md
+[20:53:50] [LEARN] Поради: 1 (knowledge/)
+[21:01:09] [PANEL] + програма для вирахування калорій (queued)
+[21:01:09] [CMD] Received: програма для вирахування калорій
+[21:01:10] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\програмадлявирахуваннякалорій.json
+[21:01:16] [PANEL] + програма для вирахування калорій (queued)
+[21:01:20] [DOTNET] new web Програмадлявирахуваннякалорій
+[21:01:23] [SLN] Added Програмадлявирахуваннякалорій.csproj
+[21:02:18] [LEARN] SelfTest: OK • Програма для вирахування калорій • http://localhost:5192/
+[21:02:19] [CMD] Received: програма для вирахування калорій
+[21:02:32] [DOTNET] new web Програмадлявирахуваннякалорій2
+[21:02:36] [SLN] Added Програмадлявирахуваннякалорій2.csproj
+[21:02:56] [PANEL] + Покажи навчання (queued)
+[21:03:14] [LEARN] SelfTest: OK • Програма для вирахування калорій • http://localhost:5193/
+[21:03:15] [CMD] Received: Покажи навчання
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:14:33.0282197Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:24:40.1578724Z","context":"proj:run:Calculator","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T20:57:12.7328982Z","context":"proj:run:Timer2","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:15] [LEARN] {"ts":"2025-11-01T21:07:08.1820082Z","context":"proj:run:Timer3","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:03:56] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[21:04:19] [PANEL] + створи програму для вирахування калорій (queued)
+[21:04:20] [CMD] Received: створи програму для вирахування калорій
+[21:04:31] [DOTNET] new web Програмадлявирахуваннякалорій3
+[21:04:37] [SLN] Added Програмадлявирахуваннякалорій3.csproj
+[21:04:54] [LEARN] SelfTest: OK • Програма для вирахування калорій • http://localhost:5194/
+[21:05:00] [PANEL] + Покажи навчання (queued)
+[21:05:01] [CMD] Received: Покажи навчання
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:01:01.9663365Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:02:33.0170321Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:02:36.4873285Z","context":"proj:run:\u0422\u0430\u0439\u043C\u0435\u0440\u0437\u0442\u0435\u043C\u043D\u0438\u043C\u0444\u043E\u043D\u043E\u043C","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:14:33.0282197Z","context":"proj:run:Timer","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:24:40.1578724Z","context":"proj:run:Calculator","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T20:57:12.7328982Z","context":"proj:run:Timer2","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:05:01] [LEARN] {"ts":"2025-11-01T21:07:08.1820082Z","context":"proj:run:Timer3","tool":"dotnet","args":"run","stderr":"Unhandled exception. System.IO.IOException: Failed to bind to address http://127.0.0.1:5173: address already in use.\r\n ---\u003E Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n ---\u003E System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.C ...","action":"no-known-fix"}
+[21:21:55] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[21:24:25] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[21:24:49] [PANEL] + start learning (queued)
+[21:24:50] [CMD] Received: start learning
+[21:24:50] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\startlearning.json
+[21:25:03] [DOTNET] new web Startlearning
+[21:25:12] [SLN] Added Startlearning.csproj
+[21:26:03] [HEAL] Port busy. Switching to free port 5195
+[21:26:04] [HEAL] Applied: use free port 5195. Retrying…
+[21:26:15] [LEARN] SelfTest: OK • Start learning • http://localhost:5195/
+[21:39:01] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[21:39:11] [PANEL] + почати навчання (queued)
+[21:39:11] [CMD] Received: почати навчання
+[21:39:11] [LEARN] Level 1: створи консольний калькулятор
+[21:39:11] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\консольнийкалькулятор.json
+[21:39:27] [DOTNET] new web Calculator10
+[21:39:36] [SLN] Added Calculator10.csproj
+[21:40:08] [HEAL] Port busy. Switching to free port 5196
+[21:40:08] [HEAL] Applied: use free port 5196. Retrying…
+[21:40:18] [LEARN] SelfTest: FAIL • Calculator • http://localhost:5196/
+[21:40:18] [LEARN] Notes: calculator: UI controls missing (#a, #b, #op, #calc)
+[21:40:18] [STYLE] Heal auto-pick: Консольний калькулятор
+[21:40:18] [HEAL] Applied fallback and rewrote wwwroot.
+[21:40:18] [LEARN] SelfTest: OK • Консольний калькулятор • http://localhost:5196/
+[21:40:18] [HEAL] Fixed and learned mapping: 'консольний калькулятор' -> 'консольний калькулятор'.
+[21:40:18] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[21:40:18] [RESEARCH] Search: створи консольний калькулятор
+[21:40:35] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[21:40:35] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[11:13:31] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[11:13:31] [PANEL] + Create solution AutoSln (queued)
+[11:13:32] [CMD] Received: Create solution AutoSln
+[11:13:33] [PANEL] + Create console project AppA in solution AutoSln (queued)
+[11:13:33] [PANEL] + Create console project AppB in solution AutoSln (queued)
+[11:13:33] [PANEL] + Build solution AutoSln (queued)
+[11:13:33] [PANEL] + Run project AppA (queued)
+[11:13:33] [PANEL] + Run project AppB (queued)
+[11:13:33] [PANEL] + Make calculator and open in browser (queued)
+[11:13:33] [PANEL] + Make notes (queued)
+[11:13:34] [PANEL] + Make wallet (queued)
+[11:13:34] [PANEL] + Make timer (queued)
+[11:13:35] [SLN] Created C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\AutoSln\AutoSln.sln
+[11:13:35] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\AutoSln\AutoSln.sln
+[11:13:35] [CMD] Received: Create console project AppA in solution AutoSln
+[11:13:39] [DOTNET] new console AppA
+[11:13:42] [SLN] Added AppA.csproj
+[11:13:42] [OK] Проєкт AppA (console) створено у рішенні AutoSln
+[11:13:42] [CMD] Received: Create console project AppB in solution AutoSln
+[11:13:47] [DOTNET] new console AppB
+[11:13:50] [SLN] Added AppB.csproj
+[11:13:50] [OK] Проєкт AppB (console) створено у рішенні AutoSln
+[11:13:50] [CMD] Received: Build solution AutoSln
+[11:13:51] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\buildsolutionautosln.json
+[11:13:57] [DOTNET] new web BuildsolutionAutoSln
+[11:14:00] [SLN] Added BuildsolutionAutoSln.csproj
+[11:16:23] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[11:16:24] [PANEL] + Create solution AutoSln (queued)
+[11:16:24] [PANEL] + Create console project AppA in solution AutoSln (queued)
+[11:16:24] [PANEL] + Create console project AppB in solution AutoSln (queued)
+[11:16:24] [PANEL] + Build solution AutoSln (queued)
+[11:16:24] [CMD] Received: Create solution AutoSln
+[11:16:24] [PANEL] + Run project AppA (queued)
+[11:16:24] [PANEL] + Run project AppB (queued)
+[11:16:24] [SLN] OK: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\AutoSln\AutoSln.sln
+[11:16:24] [CMD] Received: Create console project AppA in solution AutoSln
+[11:16:24] [DOTNET] exists AppA
+[11:16:24] [PANEL] + Make calculator and open in browser (queued)
+[11:16:24] [PANEL] + Make notes (queued)
+[11:16:25] [PANEL] + Make wallet (queued)
+[11:16:25] [PANEL] + Make timer (queued)
+[11:16:26] [SLN] Added AppA.csproj
+[11:16:26] [OK] Проєкт AppA (console) створено у рішенні AutoSln
+[11:16:26] [CMD] Received: Create console project AppB in solution AutoSln
+[11:16:26] [DOTNET] exists AppB
+[11:16:27] [SLN] Added AppB.csproj
+[11:16:27] [OK] Проєкт AppB (console) створено у рішенні AutoSln
+[11:16:27] [CMD] Received: Build solution AutoSln
+[11:16:33] [DOTNET] new web BuildsolutionAutoSln2
+[11:16:36] [SLN] Added BuildsolutionAutoSln2.csproj
+[11:16:53] [LEARN] SelfTest: OK • Build solution AutoSln • http://localhost:5173/
+[11:16:54] [CMD] Received: Run project AppA
+[11:16:54] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\runprojectappa.json
+[11:55:06] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[11:55:41] [CMD] Received: Створи простий калькулятор у консолі
+[11:55:42] [PANEL] + Створи простий калькулятор у консолі (queued)
+[11:55:46] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\простийкалькуляторуконсолі.json
+[11:56:02] [DOTNET] new web Calculator11
+[11:56:05] [SLN] Added Calculator11.csproj
+[11:58:40] [LEARN] SelfTest: FAIL • Calculator • http://localhost:5173/
+[11:58:40] [LEARN] Notes: calculator: UI controls missing (#a, #b, #op, #calc)
+[11:58:40] [STYLE] Heal auto-pick: Простий калькулятор у консолі
+[11:58:40] [HEAL] Applied fallback and rewrote wwwroot.
+[11:58:40] [LEARN] SelfTest: OK • Простий калькулятор у консолі • http://localhost:5173/
+[11:58:40] [HEAL] Fixed and learned mapping: 'простий калькулятор у консолі' -> 'простий калькулятор у консолі'.
+[12:02:17] [PANEL] + Створи консольну програму, яка просто виводить слово Привіт (queued)
+[12:02:18] [CMD] Received: Створи консольну програму, яка просто виводить слово Привіт
+[12:02:18] [AI] FreeForm: 'Створи консольну програму, яка просто виводить слово Привіт'
+[12:02:20] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\створиконсольнупрограмуякапростовиводитьсловопривіт.json
+[12:02:25] [DOTNET] new web СтвориконсольнупрограмуякапростовиводитьсловоПривіт
+[12:02:27] [SLN] Added СтвориконсольнупрограмуякапростовиводитьсловоПривіт.csproj
+[12:02:59] [LEARN] New generator scaffolded: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\СтвориконсольнупрограмуякапростовиводитьсловоПривіт\generators\proj.json
+[12:02:59] [HEAL] Port busy. Switching to free port 5174
+[12:02:59] [HEAL] Applied: use free port 5174. Retrying…
+[12:03:05] [LEARN] SelfTest: OK • Створи консольну програму, яка просто виводить слово Привіт • http://localhost:5174/
+[12:06:47] [PANEL] + Створи консольний проєкт Привіт (queued)
+[12:06:47] [CMD] Received: Створи консольний проєкт Привіт
+[12:06:48] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\консольнийпроєктпривіт.json
+[12:06:53] [DOTNET] new web КонсольнийпроєктПривіт
+[12:06:55] [SLN] Added КонсольнийпроєктПривіт.csproj
+[12:07:08] [HEAL] Port busy. Switching to free port 5175
+[12:07:08] [HEAL] Applied: use free port 5175. Retrying…
+[12:07:12] [LEARN] SelfTest: OK • Консольний проєкт Привіт • http://localhost:5175/
+[12:10:14] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[12:10:26] [PANEL] + Створи консольну програму, яка виводить Привіт (queued)
+[12:10:26] [CMD] Received: Створи консольну програму, яка виводить Привіт
+[12:10:30] [DOTNET] new console ConsoleApp_121026
+[12:10:37] [OUT] Привіт
+[12:11:14] [PANEL] + Повтори ще 3 рази (queued)
+[12:11:14] [CMD] Received: Повтори ще 3 рази
+[12:11:14] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\повторище3рази.json
+[12:11:19] [DOTNET] new web Повторище3рази
+[12:11:22] [SLN] Added Повторище3рази.csproj
+[12:11:33] [HEAL] Port busy. Switching to free port 5176
+[12:11:33] [HEAL] Applied: use free port 5176. Retrying…
+[12:11:38] [LEARN] SelfTest: OK • Повтори ще 3 рази • http://localhost:5176/
+[12:32:27] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[12:32:39] [PANEL] + Створи консольну програму, яка виводить Привіт (queued)
+[12:32:39] [CMD] Received: Створи консольну програму, яка виводить Привіт
+[12:32:45] [DOTNET] new console ConsoleApp_123239
+[12:32:56] [OUT] Привіт
+[12:33:22] [PANEL] + Повтори ще 3 рази (queued)
+[12:33:22] [CMD] Received: Повтори ще 3 рази
+[12:33:22] [REPEAT] Повторюю останню консольну програму
+[12:33:22] [REPEAT] Немає попередньої програми для повтору
+[12:37:58] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[12:38:16] [PANEL] + Створи консольну програму, яка виводить Привіт (queued)
+[12:38:16] [CMD] Received: Створи консольну програму, яка виводить Привіт
+[12:38:19] [DOTNET] new console ConsoleApp_123816
+[12:38:25] [OUT] Привіт
+[12:38:41] [PANEL] + Повтори ще 3 рази (queued)
+[12:38:42] [CMD] Received: Повтори ще 3 рази
+[12:38:44] [OUT] Привіт
+[12:38:47] [OUT] Привіт
+[12:38:50] [OUT] Привіт
+[12:39:49] [PANEL] + Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>" (queued)
+[12:39:49] [CMD] Received: Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>"
+[12:39:52] [DOTNET] new console ConsoleApp_123949
+[12:39:57] [OUT] Привіт
+[12:41:31] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[12:41:40] [PANEL] + Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>" (queued)
+[12:41:41] [CMD] Received: Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>"
+[12:41:44] [DOTNET] new console ConsoleApp_124141
+[12:41:49] [OUT] Привіт
+[12:55:25] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[12:55:31] [PANEL] + Створи консольну програму, яка виводить Привіт (queued)
+[12:55:31] [CMD] Received: Створи консольну програму, яка виводить Привіт
+[12:55:34] [DOTNET] new console ConsoleApp_125531
+[12:55:39] [OUT] Привіт
+[12:56:03] [PANEL] + Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>" (queued)
+[12:56:03] [CMD] Received: Створи консольну програму: запитай "Введіть число:", прочитай число і виведи "Ви ввели: <число>"
+[12:56:06] [DOTNET] new console ConsoleApp_125603
+[13:00:51] [PANEL] + 4 (queued)
+[13:02:48] [PANEL] + створи консольну програму що виводить "Привіт" (queued)
+[13:04:01] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:04:07] [PANEL] + створи консольну програму що виводить "Привіт" (queued)
+[13:04:07] [CMD] Received: створи консольну програму що виводить "Привіт"
+[13:04:11] [DOTNET] new console ConsoleApp_130408
+[13:04:17] [OUT] Привіт
+[13:05:08] [PANEL] + продовж навчання (queued)
+[13:05:08] [CMD] Received: продовж навчання
+[13:05:09] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\продовжнавчання.json
+[13:05:14] [DOTNET] new web Продовжнавчання
+[13:05:16] [SLN] Added Продовжнавчання.csproj
+[13:05:31] [LEARN] SelfTest: OK • Продовж навчання • http://localhost:5173/
+[13:07:53] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:08:02] [PANEL] + почати навчання (queued)
+[13:08:02] [CMD] Received: почати навчання
+[13:08:02] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:08:06] [DOTNET] new console ConsoleApp_130803
+[13:08:12] [OUT] Привіт
+[13:08:12] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[13:08:12] [RESEARCH] Search: створи консольну програму що виводить "Привіт"
+[13:08:18] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[13:08:18] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[13:09:19] [PANEL] + наступне навчальне завдання (queued)
+[13:09:19] [CMD] Received: наступне навчальне завдання
+[13:09:19] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:09:23] [DOTNET] new console ConsoleApp_130919
+[13:09:28] [OUT] Привіт
+[13:09:28] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[13:09:28] [RESEARCH] Search: створи консольну програму що виводить "Привіт"
+[13:09:32] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[13:09:32] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[13:14:33] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:14:43] [PANEL] + почати навчання (queued)
+[13:14:43] [CMD] Received: почати навчання
+[13:14:43] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:14:46] [DOTNET] new console ConsoleApp_131443
+[13:14:52] [OUT] Привіт
+[13:14:52] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[13:14:52] [RESEARCH] Search: створи консольну програму що виводить "Привіт"
+[13:14:57] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[13:14:57] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[13:18:04] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:18:10] [PANEL] + почати навчання (queued)
+[13:18:10] [CMD] Received: почати навчання
+[13:18:10] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:18:13] [DOTNET] new console ConsoleApp_131810
+[13:18:18] [OUT] Привіт
+[13:18:18] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[13:18:18] [TEST] No project found
+[13:18:18] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[13:18:18] [RESEARCH] Search: створи консольну програму що виводить "Привіт"
+[13:18:23] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[13:18:23] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[13:30:47] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:31:06] [PANEL] + почати навчання (queued)
+[13:31:06] [CMD] Received: почати навчання
+[13:31:06] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:31:09] [DOTNET] new console ConsoleApp_133106
+[13:38:39] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:38:57] [PANEL] + почати навчання (queued)
+[13:38:57] [CMD] Received: почати навчання
+[13:38:57] [LEARN] Level 1: створи консольну програму що виводить "Привіт"
+[13:39:00] [DOTNET] new console ConsoleApp_133857
+[13:39:05] [OUT] Привіт
+[13:39:05] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[13:39:05] [TEST] Using project: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_133857
+[13:39:11] [LEARN] ✅ Успіх • Перехід на рівень 2
+[13:41:10] [PANEL] + наступне навчальне завдання (queued)
+[13:41:10] [CMD] Received: наступне навчальне завдання
+[13:41:10] [LEARN] Для рівня 2 задач не знайдено. Можливо кінець курсу ✅
+[13:41:37] [PANEL] + наступне навчальне завдання 1 рівня (queued)
+[13:41:37] [CMD] Received: наступне навчальне завдання 1 рівня
+[13:41:37] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\наступненавчальнезавдання1рівня.json
+[13:41:42] [DOTNET] new web Наступненавчальнезавдання1рівня
+[13:41:44] [SLN] Added Наступненавчальнезавдання1рівня.csproj
+[13:42:25] [HEAL] Port busy. Switching to free port 5174
+[13:42:25] [HEAL] Applied: use free port 5174. Retrying…
+[13:42:30] [LEARN] SelfTest: OK • Наступне навчальне завдання 1 рівня • http://localhost:5174/
+[13:45:13] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[13:46:02] [PANEL] + Почати навчання (queued)
+[13:46:02] [CMD] Received: Почати навчання
+[13:46:03] [LEARN] Level 1: створи консольну програму що виводить "Hello"
+[13:46:08] [DOTNET] new console ConsoleApp_134603
+[13:46:18] [OUT] Привіт
+[13:46:18] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[13:46:18] [TEST] Using project: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_134603
+[13:46:24] [LEARN] ✅ Успіх • Перехід на рівень 2
+[14:00:23] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[14:00:40] [PANEL] + Почати навчання (queued)
+[14:00:40] [CMD] Received: Почати навчання
+[14:00:40] [LEARN] Level 1: створи консольну програму що виводить "Hello"
+[14:00:44] [DOTNET] new console ConsoleApp_140041
+[14:00:51] [OUT] Привіт
+[14:00:51] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[14:01:00] [TEST] Console stdout does not contain expected: "Hello"  | stdout: Привіт
+[14:01:00] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[14:01:00] [RESEARCH] Search: створи консольну програму що виводить "Hello"
+[14:01:06] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[14:01:06] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[14:30:33] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[14:33:24] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[14:34:01] [PANEL] + почати навчання рівень 1 (queued)
+[14:34:01] [CMD] Received: почати навчання рівень 1
+[14:34:02] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\початинавчаннярівень1.json
+[14:34:09] [DOTNET] new web Початинавчаннярівень1
+[14:34:11] [SLN] Added Початинавчаннярівень1.csproj
+[14:34:30] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[14:34:42] [PANEL] + почати навчання (queued)
+[14:34:42] [CMD] Received: почати навчання
+[14:34:42] [LEARN] Level 1: створи консольну програму що виводить "Hello"
+[14:34:46] [DOTNET] new console ConsoleApp_143442
+[14:34:52] [OUT] Привіт
+[14:34:52] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[14:34:58] [TEST] Console stdout does not contain expected: "Hello"  | stdout: Привіт
+[14:34:58] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[14:34:58] [RESEARCH] Search: створи консольну програму що виводить "Hello"
+[14:35:02] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[14:35:02] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[14:36:01] [PANEL] + наступне навчальне завдання (queued)
+[14:36:02] [CMD] Received: наступне навчальне завдання
+[14:36:02] [LEARN] Level 1: створи консольну програму що виводить "Hello"
+[14:36:04] [DOTNET] new console ConsoleApp_143602
+[14:36:12] [OUT] Привіт
+[14:36:12] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[14:36:18] [TEST] Console stdout does not contain expected: "Hello"  | stdout: Привіт
+[14:36:18] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[14:36:18] [RESEARCH] Search: створи консольну програму що виводить "Hello"
+[14:36:22] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[14:36:22] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[14:36:35] [PANEL] + продовжи навчання (queued)
+[14:36:36] [CMD] Received: продовжи навчання
+[14:36:36] [LEARN] AutoGenerator saved: C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\generators\продовжинавчання.json
+[14:36:40] [DOTNET] new web Продовжинавчання
+[14:42:21] [AGENT] Started (daemon mode). Команди виконуються одразу.
+[14:42:30] [PANEL] + почати навчання (queued)
+[14:42:30] [CMD] Received: почати навчання
+[14:42:30] [LEARN] Level 1: створи консольну програму що виводить "Hello"
+[14:42:35] [DOTNET] new console ConsoleApp_144230
+[14:42:40] [OUT] Привіт
+[14:42:40] [TEST] Console self-test start in C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace
+[14:42:47] [TEST] Console stdout does not contain expected: "Hello"  | stdout: Привіт
+[14:42:47] [LEARN] ❌ Тест не пройдено — пробую зібрати поради…
+[14:42:47] [RESEARCH] Search: створи консольну програму що виводить "Hello"
+[14:42:50] [FEEDBACK] Немає порад з веба (offline хінти могли бути збережені).
+[14:42:50] [LEARN] Поради збережено в knowledge/. Запусти ще раз: «наступне навчальне завдання»
+[14:46:32] [PANEL] + почати навчання
+наступне навчальне завдання (queued)
+[14:46:33] [CMD] Received: почати навчання
+наступне навчальне завдання
+[14:46:38] [DOTNET] new web Наступненавчальнезавдання1рівня2
+[14:46:43] [SLN] Added Наступненавчальнезавдання1рівня2.csproj

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Timer3.props" />
+</Project>

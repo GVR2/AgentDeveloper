@@ -1,0 +1,5 @@
+Timestamp: 2025-10-30T20:43:25.5789750Z
+Intent: Create project
+Action: click
+Selector: text=New Project
+Notes: Modal visible

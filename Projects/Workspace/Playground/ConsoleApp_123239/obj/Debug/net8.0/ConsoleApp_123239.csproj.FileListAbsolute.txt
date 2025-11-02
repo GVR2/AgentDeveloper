@@ -1,0 +1,14 @@
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\bin\Debug\net8.0\ConsoleApp_123239.exe
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\bin\Debug\net8.0\ConsoleApp_123239.deps.json
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\bin\Debug\net8.0\ConsoleApp_123239.runtimeconfig.json
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\bin\Debug\net8.0\ConsoleApp_123239.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\bin\Debug\net8.0\ConsoleApp_123239.pdb
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.AssemblyInfoInputs.cache
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.AssemblyInfo.cs
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.csproj.CoreCompileInputs.cache
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\refint\ConsoleApp_123239.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.pdb
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ConsoleApp_123239.genruntimeconfig.cache
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\Projects\Workspace\Playground\ConsoleApp_123239\obj\Debug\net8.0\ref\ConsoleApp_123239.dll

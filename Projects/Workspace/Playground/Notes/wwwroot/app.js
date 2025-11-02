@@ -1,0 +1,1 @@
+﻿const KEY='notes_v1',pad=document.getElementById('pad');pad.value=localStorage.getItem(KEY)||'';let t=null;pad.addEventListener('input',()=>{clearTimeout(t);t=setTimeout(()=>localStorage.setItem(KEY,pad.value),250);});

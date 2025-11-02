@@ -1,0 +1,5 @@
+Timestamp: 2025-10-30T20:43:27.0365276Z
+Intent: Edit loader
+Action: type
+Selector: .monaco-editor textarea
+Notes: Paste code + Ctrl+S

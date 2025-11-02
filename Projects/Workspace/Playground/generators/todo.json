@@ -1,0 +1,14 @@
+﻿{
+  "keys": [
+    "todo",
+    "to-do",
+    "\u0437\u0430\u043C\u0456\u0442\u043A\u0438",
+    "\u0441\u043F\u0438\u0441\u043E\u043A \u0437\u0430\u0434\u0430\u0447"
+  ],
+  "title": "Todo",
+  "files": {
+    "index.html": "\u003C!doctype html\u003E\r\n\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width,initial-scale=1\u0022\u003E\r\n\u003Ctitle\u003ETodo\u003C/title\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022style.css\u0022\u003E\u003C/head\u003E\r\n\u003Cbody\u003E\r\n  \u003Cdiv class=\u0022card\u0022\u003E\u003Ch1\u003ETodo\u003C/h1\u003E\r\n  \u003Cdiv class=\u0022row\u0022\u003E\u003Cinput id=\u0022task\u0022 placeholder=\u0022What to do?\u0022\u003E\u003Cbutton id=\u0022add\u0022\u003EAdd\u003C/button\u003E\u003C/div\u003E\r\n  \u003Cul id=\u0022list\u0022\u003E\u003C/ul\u003E\u003C/div\u003E\u003Cscript src=\u0022app.js\u0022\u003E\u003C/script\u003E\u003C/body\u003E\u003C/html\u003E",
+    "style.css": "*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}\r\n.card{max-width:520px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}\r\n.row{display:flex;gap:8px}input{flex:1;padding:10px;border:1px solid #d1d5db;border-radius:10px}\r\nbutton{padding:10px 12px;border:1px solid #111;border-radius:10px;background:#111;color:#fff}\r\nli{display:flex;justify-content:space-between;align-items:center;padding:8px;border-bottom:1px dashed #e5e7eb}",
+    "app.js": "const input=document.getElementById(\u0027task\u0027),list=document.getElementById(\u0027list\u0027);\r\ndocument.getElementById(\u0027add\u0027).onclick=()=\u003E{const v=input.value.trim();if(!v)return;const li=document.createElement(\u0027li\u0027);\r\nli.textContent=v;const del=document.createElement(\u0027button\u0027);del.textContent=\u0027\u00D7\u0027;del.onclick=()=\u003Eli.remove();li.appendChild(del);list.appendChild(li);input.value=\u0027\u0027;};"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "keys": [
+    "timer",
+    "\u0442\u0430\u0439\u043C\u0435\u0440",
+    "stopwatch"
+  ],
+  "title": "Timer",
+  "files": {
+    "index.html": "\u003C!doctype html\u003E\r\n\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width,initial-scale=1\u0022\u003E\r\n\u003Ctitle\u003ETimer\u003C/title\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022style.css\u0022\u003E\u003C/head\u003E\r\n\u003Cbody\u003E\r\n  \u003Cdiv class=\u0022card\u0022\u003E\u003Ch1\u003ETimer\u003C/h1\u003E\r\n  \u003Cdiv id=\u0022clock\u0022\u003E00:00:00\u003C/div\u003E\r\n  \u003Cdiv class=\u0022row\u0022\u003E\u003Cbutton id=\u0022start\u0022\u003EStart\u003C/button\u003E\u003Cbutton id=\u0022stop\u0022\u003EStop\u003C/button\u003E\u003Cbutton id=\u0022reset\u0022\u003EReset\u003C/button\u003E\u003C/div\u003E\r\n  \u003C/div\u003E\u003Cscript src=\u0022app.js\u0022\u003E\u003C/script\u003E\u003C/body\u003E\u003C/html\u003E",
+    "style.css": "*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}\r\n.card{max-width:520px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06);text-align:center}\r\n#clock{font-size:48px;margin:14px 0}button{padding:10px 12px;border:1px solid #111;border-radius:10px;background:#111;color:#fff;margin:0 6px}",
+    "app.js": "let h=0,m=0,s=0,t=null;const clock=document.getElementById(\u0027clock\u0027);\r\nfunction render(){clock.textContent=[h,m,s].map(x=\u003EString(x).padStart(2,\u00270\u0027)).join(\u0027:\u0027);}\r\ndocument.getElementById(\u0027start\u0027).onclick=()=\u003E{if(t)return;t=setInterval(()=\u003E{s\u002B\u002B;if(s==60){s=0;m\u002B\u002B;}if(m==60){m=0;h\u002B\u002B;}render();},1000);};\r\ndocument.getElementById(\u0027stop\u0027).onclick=()=\u003E{clearInterval(t);t=null;};\r\ndocument.getElementById(\u0027reset\u0027).onclick=()=\u003E{h=0;m=0;s=0;render();};render();"
+  }
+}

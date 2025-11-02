@@ -1,0 +1,12 @@
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\bin\Debug\net8.0\AgentSingle.exe
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\bin\Debug\net8.0\AgentSingle.deps.json
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\bin\Debug\net8.0\AgentSingle.runtimeconfig.json
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\bin\Debug\net8.0\AgentSingle.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\bin\Debug\net8.0\AgentSingle.pdb
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.csproj.CoreCompileInputs.cache
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\refint\AgentSingle.dll
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.pdb
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\AgentSingle.genruntimeconfig.cache
+C:\Users\Василь\Desktop\project\codavant\AgentDeveloper\AgentSingle\obj\Debug\net8.0\ref\AgentSingle.dll

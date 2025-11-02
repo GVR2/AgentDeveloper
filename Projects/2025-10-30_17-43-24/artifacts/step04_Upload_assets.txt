@@ -1,0 +1,5 @@
+Timestamp: 2025-10-30T20:43:26.2120940Z
+Intent: Upload assets
+Action: upload
+Selector: input[type='file']
+Notes: bg_map.webp, logo.png

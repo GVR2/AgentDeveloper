@@ -1,0 +1,5 @@
+﻿*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}
+.card{max-width:520px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}
+.row{display:flex;gap:8px}input{flex:1;padding:10px;border:1px solid #d1d5db;border-radius:10px}
+button{padding:10px 12px;border:1px solid #111;border-radius:10px;background:#111;color:#fff}
+li{display:flex;justify-content:space-between;align-items:center;padding:8px;border-bottom:1px dashed #e5e7eb}

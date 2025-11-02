@@ -1,0 +1,14 @@
+﻿{
+  "keys": [
+    "\u043D\u043E\u0442\u0430\u0442\u043A\u0430",
+    "\u043D\u043E\u0442\u0430\u0442\u043A\u0438",
+    "\u0437\u0430\u043C\u0456\u0442\u043A\u0430",
+    "notes"
+  ],
+  "title": "Notes",
+  "files": {
+    "index.html": "\u003C!doctype html\u003E\u003Chtml lang=\u0022uk\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width,initial-scale=1\u0022\u003E\u003Ctitle\u003ENotes\u003C/title\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022style.css\u0022\u003E\u003C/head\u003E\u003Cbody\u003E\u003Cdiv class=\u0022card\u0022\u003E\u003Ch1\u003ENotes\u003C/h1\u003E\u003Ctextarea id=\u0022pad\u0022 placeholder=\u0022\u041F\u0438\u0448\u0438 \u0442\u0443\u0442\u2026\u0022\u003E\u003C/textarea\u003E\u003Cdiv class=\u0022hint\u0022\u003E\u0410\u0432\u0442\u043E\u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E (localStorage)\u003C/div\u003E\u003C/div\u003E\u003Cscript src=\u0022app.js\u0022\u003E\u003C/script\u003E\u003C/body\u003E\u003C/html\u003E",
+    "style.css": "*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}.card{max-width:820px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}textarea{width:100%;min-height:420px;padding:12px;border:1px solid #d1d5db;border-radius:12px;font-family:ui-monospace,Consolas,monospace}.hint{margin-top:8px;color:#666;font-size:13px}",
+    "app.js": "const KEY=\u0027notes_v1\u0027,pad=document.getElementById(\u0027pad\u0027);pad.value=localStorage.getItem(KEY)||\u0027\u0027;let t=null;pad.addEventListener(\u0027input\u0027,()=\u003E{clearTimeout(t);t=setTimeout(()=\u003ElocalStorage.setItem(KEY,pad.value),250);});"
+  }
+}

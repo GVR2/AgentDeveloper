@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BuildsolutionAutoSln2.props" />
+</Project>

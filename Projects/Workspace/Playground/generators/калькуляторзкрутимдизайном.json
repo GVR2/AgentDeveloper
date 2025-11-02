@@ -1,0 +1,11 @@
+﻿{
+  "keys": [
+    "\u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u0437 \u043A\u0440\u0443\u0442\u0438\u043C \u0434\u0438\u0437\u0430\u0439\u043D\u043E\u043C"
+  ],
+  "title": "\u041A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u0437 \u043A\u0440\u0443\u0442\u0438\u043C \u0434\u0438\u0437\u0430\u0439\u043D\u043E\u043C",
+  "files": {
+    "index.html": "\u003C!doctype html\u003E\r\n\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charset=\u0022utf-8\u0022\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width,initial-scale=1\u0022\u003E\r\n\u003Ctitle\u003EApp\u003C/title\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022style.css\u0022\u003E\u003C/head\u003E\r\n\u003Cbody\u003E\u003Cdiv class=\u0022card\u0022\u003E\u003Ch1\u003EApp\u003C/h1\u003E\u003Cp\u003EScaffold for \u0027\u043A\u0430\u043B\u044C\u043A\u0443\u043B\u044F\u0442\u043E\u0440 \u0437 \u043A\u0440\u0443\u0442\u0438\u043C \u0434\u0438\u0437\u0430\u0439\u043D\u043E\u043C\u0027. Edit generator JSON to customize.\u003C/p\u003E\u003C/div\u003E\u003C/body\u003E\u003C/html\u003E",
+    "style.css": "*{box-sizing:border-box}body{font-family:system-ui,Segoe UI,Roboto,Ubuntu;background:#f7f7f8;margin:0;padding:32px}\r\n.card{max-width:680px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 6px 30px rgba(0,0,0,.06)}",
+    "app.js": "// add logic here"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "steps": [
+    {
+      "Order": 1,
+      "Intent": "Open PlayCanvas",
+      "Action": "navigate",
+      "TargetSelector": "url:https://playcanvas.com/",
+      "Notes": "Dashboard visible",
+      "Fallback": "reload"
+    },
+    {
+      "Order": 2,
+      "Intent": "Create project",
+      "Action": "click",
+      "TargetSelector": "text=New Project",
+      "Notes": "Modal visible",
+      "Fallback": "text=New"
+    },
+    {
+      "Order": 3,
+      "Intent": "Name project",
+      "Action": "type",
+      "TargetSelector": "input[placeholder=\u0027Project name\u0027]",
+      "Notes": "Name entered",
+      "Fallback": "wait:500;retry"
+    },
+    {
+      "Order": 4,
+      "Intent": "Upload assets",
+      "Action": "upload",
+      "TargetSelector": "input[type=\u0027file\u0027]",
+      "Notes": "bg_map.webp, logo.png",
+      "Fallback": "open \u0027Assets\u0027"
+    },
+    {
+      "Order": 5,
+      "Intent": "Add loader script",
+      "Action": "click",
+      "TargetSelector": "text=Add Asset \u003E\u003E text=Script",
+      "Notes": "__loading__.js created",
+      "Fallback": "context menu"
+    },
+    {
+      "Order": 6,
+      "Intent": "Edit loader",
+      "Action": "type",
+      "TargetSelector": ".monaco-editor textarea",
+      "Notes": "Paste code \u002B Ctrl\u002BS",
+      "Fallback": "shortcut:Ctrl\u002BS"
+    },
+    {
+      "Order": 7,
+      "Intent": "Preview",
+      "Action": "click",
+      "TargetSelector": "text=Launch",
+      "Notes": "App started",
+      "Fallback": "wait:1000;retry"
+    }
+  ],
+  "notes": [
+    {
+      "FilePath": "__loading__.js",
+      "Purpose": "single loader w/o double splash",
+      "PublicAPI": "init(), onProgress(p), onDone()",
+      "EdgeCases": "low-FPS; asset 404; vh fix"
+    }
+  ]
+}

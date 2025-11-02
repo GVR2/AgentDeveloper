@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>онсольний калькулятор (Web UI)</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Arial;margin:2rem;max-width:640px}
+    label{display:block;margin:.5rem 0 .25rem}
+    input,select,button{font-size:1rem;padding:.5rem}
+    .row{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+    #out{margin-top:1rem;font-weight:700}
+  </style>
+</head>
+<body>
+  <h1>алькулятор</h1>
+  <div class="row">
+    <div>
+      <label for="a">A</label>
+      <input id="a" type="number" value="2" />
+    </div>
+    <div>
+      <label for="op">перація</label>
+      <select id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+    </div>
+    <div>
+      <label for="b">B</label>
+      <input id="b" type="number" value="3" />
+    </div>
+    <div style="align-self:end">
+      <button id="calc">бчислити</button>
+    </div>
+  </div>
+  <div id="out">езультат: —</div>
+
+  <script>
+    function calc(){
+      const a = parseFloat(document.getElementById('a').value);
+      const b = parseFloat(document.getElementById('b').value);
+      const op= document.getElementById('op').value;
+      let y = NaN;
+      switch(op){
+        case '+': y = a + b; break;
+        case '-': y = a - b; break;
+        case '*': y = a * b; break;
+        case '/': y = b===0 ? NaN : a / b; break;
+      }
+      document.getElementById('out').textContent = 'езультат: ' + (isNaN(y) ? 'NaN' : y);
+    }
+    document.getElementById('calc').addEventListener('click', calc);
+  </script>
+</body>
+</html>
